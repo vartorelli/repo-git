@@ -48,3 +48,36 @@ doc/*.txt
 - *ignorar todos los archivos terminados en .txt dentro de la carpeta doc y también en sus subcarpetas*
 
 doc/**/*.txt
+
+# Ramas,  cambios y uso de ramas
+
+- crear rama /
+git branch nombre-rama
+
+- cambiar de rama /
+git checkout nombre-rama
+
+- crear una rama y cambiarte a ella /
+git checkout -b rama
+
+- eliminar rama /
+git branch -d nombre-rama
+
+- eliminar ramas remotas /
+git push origin --delete nombre-rama
+
+- eliminar rama (forzado) /
+git branch -D nombre-rama
+
+- listar todas las ramas del repositorio /
+git branch
+
+- lista ramas no fusionadas a la rama actual /
+git branch --no-merged
+
+- lista ramas fusionadas a la rama actual /
+git branch --merged
+
+- rebasar ramas /
+git checkout rama-secundaria
+git rebase rama-principa
