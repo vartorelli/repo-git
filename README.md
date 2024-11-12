@@ -81,3 +81,7 @@ git branch --merged
 - rebasar ramas /
 git checkout rama-secundaria
 git rebase rama-principa
+
+
+
+## git push --set-upstream origin = git push -u origin
