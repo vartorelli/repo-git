@@ -93,4 +93,4 @@ Apretar enter las veces que sea necesario para llegar a ver toda la lista
 
 git commit --amend --no-edit (Modificar el ultimo commit sin cambiar el comentario)
 
-git reset --hard HEAD-1 (Volver al commit anterior)
+git reset --hard HEAD~1 (Volver al commit anterior)
