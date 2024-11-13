@@ -90,3 +90,7 @@ git log (para ver los commit)
 git log --oneline (Ver todo los commit sin descripcion por mensaje
  y codigo)
 Apretar enter las veces que sea necesario para llegar a ver toda la lista
+
+git commit --amend --no-edit (Modificar el ultimo commit sin cambiar el comentario)
+
+git reset --hard HEAD-1 (Volver al commit anterior)
